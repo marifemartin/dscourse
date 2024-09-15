@@ -1,0 +1,54 @@
+Welcome to The Model Asset Exchange After watching this video, you will be able to navigate the Model Asset
+Exchange from IBM Research, and explain how deep learning
+model-serving detects images. The Model Asset eXchange, or “MAX”,
+on the IBM Developer platform, is a free open source resource
+for deep learning models. The tasks needed to train a model from
+scratch require a large amount of data, labor, time, and resources. Because of this, time to value can be quite long. To reduce time to value, consider taking advantage of pre-trained models for
+certain types of problems. These pre-trained models can be ready to use
+right away, or they might take less time to train. Models are created by running data through a Model
+using compute resources and domain expertise. After research, evaluation, test,
+train and validate steps are complete, you will have a validated model. The Model Asset eXchange is a
+free open source repository for ready-to-use and customizable
+deep learning microservices. These microservices are configured to
+use pre-trained or custom-trainable deep learning models to solve common business problems. These models have been fully tested, and can be
+quickly deployed in local and cloud environments. All models in MAX are available under permissive
+open source licenses, making it easier to use them for personal and commercial purposes,
+which reduces the risk of legal liabilities. On MAX, you can find models for
+a variety of domains, including: Object detection, Image, audio, video, and text classification, Named entity recognition, Image to text translation, Human pose detection, and more. Let’s look at the components of a
+typical model-serving microservice. Each microservice includes a pre-trained deep learning model, code that pre-processes the input
+before it is analyzed by the model, code that post-processes the model output, and a standardized public API that makes the
+services functionality available to applications. Model-serving microservices
+are created by running inputs through a validated model and then
+applying the output to a rest API. After implement, package, document,
+and test steps are complete, you will have a model-serving microservice
+that can then be sent to a Local machine, or a Private, Hybrid, or Public cloud. MAX model-serving microservices are built
+and distributed as open source Docker images. Docker is a container platform that makes
+it easy to build and deploy applications. The Docker image source is published on GitHub and can be downloaded and customized for use
+in personal and commercial environments. Use the Kubernetes open source
+system to automate the deployment, scaling, and management of these Docker images. Red Hat OpenShift is a popular
+enterprise-grade Kubernetes platform. It is available on IBM Cloud, Google Cloud Platform, Amazon Web
+Services, and Microsoft Azure. Let’s explore some machine learning models. Go to ml-exchange.org. Here you can
+view and use multiple predefined models. We'll explore the predefined
+object detector model. This model will recognize objects
+in an image because it consists of: a deep convolutional net base
+model for image feature extraction, and added convolutional layers
+specialized in object detection. On the MAX object detector page, select CodePen. CodePen is an online tool used
+by developers to edit front-end languages like HTML, JavaScript, and CSS. You will be redirected to the CodePen page,
+where you can select MAX Tensorflow.js model. This model is trained to identify objects in an image and assigns each pixel of
+the image to a particular object. Here you can upload different images
+of a person, dog, cat, truck, or car. The model was previously
+trained on labeled images, so now it can recognize images
+even when they are not labeled. Select an image to see what happens when
+the model invokes the prediction endpoint. Click on Extract prediction. This invokes the
+prediction endpoint, and the image is uploaded. The prebuilt TFJS model prepares
+the input image for pre-processing. The deep learning model algorithm identifies
+the different objects in the image. It generates its response using the prediction
+results and returns the result to the application. You will see the existing image
+separated into two different images: the background image and the image of the dog. The model test is complete. You have confirmed that this model is able to identify items within an image
+without using predefined labels. In this video, you learned: The Model Asset eXchange is a
+free open source repository for ready-to-use and customizable
+deep learning microservices. To reduce time to value, consider taking advantage of pre-trained models for
+certain types of problems. MAX model-serving microservices are built and distributed on GitHub as
+open source Docker images. Red Hat OpenShift is a Kubernetes
+platform used to automate deployment, scaling, and management of microservices. Ml-exchange.org has multiple predefined models. The CodePen tool lets users
+edit front-end languages.
